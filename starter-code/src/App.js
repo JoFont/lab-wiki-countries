@@ -50,7 +50,7 @@ function App() {
         <Content style={{ margin: '24px 16px 0', overflow: 'initial' }}>
           <Switch>
             <Route path="/:country">
-              <CountryView data={}/>
+              <CountryView />
             </Route>
             <Route path="/">
               <CountryView />
